@@ -1,0 +1,54 @@
+.sectionDetail{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 3rem;
+}
+.detailContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.detailImg{
+    border-radius: 16px;
+    width: 80%;
+    margin-top: 15px;
+
+}
+.detailData{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 15px;
+}
+.detailPrecio{
+    margin-top: 1rem;
+}
+.detailDesc{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.detailButton{
+    width: 100%;
+    text-align: center;
+    padding: 1.3em ;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color:  #282c34;
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-top: 5px;
+    gap: 5rem;
+}
